@@ -9,7 +9,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutinMilliseconds: 10000 
+            timeoutinMilliseconds: 15000 
 #ribbon超时设置
 ribbon:
   ConnectTimeout: 10000
