@@ -1,0 +1,16 @@
+#开启feign对Hystrix的支持
+feign:
+  hystrix:
+    enabled: true
+#hystrix超时设置
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutinMilliseconds: 10000 
+#ribbon超时设置
+ribbon:
+  ConnectTimeout: 10000
+  ReadTimeout: 5000
