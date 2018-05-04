@@ -2,6 +2,9 @@
 feign:
   hystrix:
     enabled: true
+  sarnath:
+    service:
+      url: http://localhost:8767
 #hystrix超时设置
 hystrix:
   command:
